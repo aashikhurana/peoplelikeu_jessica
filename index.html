@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("css/images/background_img.JPG");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
 <script>
     !function(e,n,t,r){
         function o(){try{var e;if((e="string"==typeof this.response?JSON.parse(this.response):this.response).url){
@@ -12,7 +34,7 @@
     }(window,document,"Smooch","5cd056b4475ad20010a67515")
 </script>
 <body>
-
+<div class="bg"></div>
 </body>
 <script>
 Smooch.init({ appId: '5cd056b4475ad20010a67515' });
